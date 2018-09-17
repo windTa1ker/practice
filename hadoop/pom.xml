@@ -45,6 +45,10 @@
             <artifactId>hadoop-mapreduce-client-app</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
