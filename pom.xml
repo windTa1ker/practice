@@ -25,28 +25,15 @@
         <hbase-compatible-hadoop.version>2.5.1</hbase-compatible-hadoop.version>
         <hadoop.assemblies.version>${hadoop.version}</hadoop.assemblies.version>
         <commons-daemon.version>1.0.13</commons-daemon.version>
-        <!-- avro version -->
         <avro.version>1.7.7</avro.version>
-        <!-- ProtocolBuffer version, used to verify the protoc version and -->
-        <!-- define the protobuf JAR version                               -->
         <protobuf.version>2.5.0</protobuf.version>
-        <!--<protoc.path>${env.HADOOP_PROTOC_PATH}</protoc.path>-->
-
         <zookeeper.version>3.4.6</zookeeper.version>
         <curator.version>2.7.1</curator.version>
         <findbugs.version>3.0.0</findbugs.version>
 
         <tomcat.version>6.0.48</tomcat.version>
         <joda-time.version>2.9.4</joda-time.version>
-
-        <!-- define the Java language version used by the compiler -->
         <javac.version>1.8</javac.version>
-
-        <!-- The java version enforced by the maven enforcer -->
-        <!-- more complex patterns can be used here, such as
-           [${javac.version})
-        for an open-ended enforcement
-        -->
         <enforced.java.version>[${javac.version},)</enforced.java.version>
         <enforced.maven.version>[3.3.0,)</enforced.maven.version>
     </properties>
@@ -375,7 +362,7 @@
                     <configuration>
                         <appendAssemblyId>false</appendAssemblyId>
                         <descriptors>
-                            <descriptor>zzz-pkg/assembly.xml</descriptor>
+                            <descriptor>assembly.xml</descriptor>
                         </descriptors>
                     </configuration>
                 </plugin>
