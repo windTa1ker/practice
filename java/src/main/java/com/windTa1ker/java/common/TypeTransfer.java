@@ -1,4 +1,4 @@
-package com.windTa1ker.common;
+package com.windTa1ker.java.common;
 
 public class TypeTransfer {
 
