@@ -7,6 +7,7 @@ object MyMain{
             val actor = new HiActor()
             actor.start()
             actor ! "Hi"
+            // ssss
       }
 }
 
