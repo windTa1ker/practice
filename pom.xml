@@ -26,7 +26,7 @@
         <hadoop.assemblies.version>${hadoop.version}</hadoop.assemblies.version>
         <commons-daemon.version>1.0.13</commons-daemon.version>
         <avro.version>1.7.7</avro.version>
-        <protobuf.version>2.5.0</protobuf.version>
+        <protobuf.version>3.16.1</protobuf.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <curator.version>2.7.1</curator.version>
         <findbugs.version>3.0.0</findbugs.version>
